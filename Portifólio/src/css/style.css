@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gasoek+One&family=Oswald:wght@200;300;400&family=Raleway:wght@500&family=Staatliches&display=swap');
+
+:root {
+  
+  --Fonte-bebas-neue:'Bebas Neue', sans-serif;
+  --Fonte-gasok-one:'Gasok One', sans-serif;
+  --Fonte-oswald:'Oswald', sans-serif;
+  --Fonte-raleway:'Raleway', sans-serif;
+  --Fonte-staatliches:'Staatliches', cursive;
+  
+  --Primary-color: #F0F0D8;
+  --Secundary-color: #8B8B70;
+  --Conteúdo-color: #98C7B0;
+  --Elementos-color: #C94B0C;
+  --Rodapé-color: #5A372C;
+}
+
+body {
+    background-color: var(--Conteúdo-color);
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: var(--Secundary-color);
+
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+
+#nav-svg {
+    height: 30px;
+    width: 55px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#nav-h1 {
+    font-family: var(--Fonte-raleway);
+    margin-right: 70%;
+    margin-top: 20px;
+}
+
+#nav-elementos {
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.sub-item {
+    text-decoration: none;
+    font-family: var(--Fonte-staatliches);
+    color: black;
+    font-weight: bold;
+    transition-duration: 1.0s;
+}
+
+.nav-item :hover {
+    text-decoration: solid;
+    color: white;
+}
+
+#inicio {
+    background-repeat: no-repeat;
+}
+
+#div-inicio {
+    margin-top: 200px;
+    margin-left: 140px; 
+    height: 830px;
+}
+
+#span-inicio {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.icone-inicio {
+    height: 60px;
+    width: 60px;
+}
+
+.h1-inicio {
+    font-weight: bolder;
+    font-size: 100px;
+    color: var(--Primary-color);
+}
+
+#sobre-mim {
+    
+}
+
+#div-sobre-mim {
+    justify-items: center;
+    background-color: var(--Primary-color);
+    height: 830px;
+    
+}
