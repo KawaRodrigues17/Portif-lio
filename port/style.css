@@ -1,0 +1,24 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sobre-mim {
+    background-color: #F0F0D8;
+    display: flex;
+}
+
+#sobre-img {
+    background-color: #F0F0D8;
+    display: flex;
+}
+
+#sobre-texto {
+    background-color: #C94B0C;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#sobre-texto-div {
+    margin: 5px;
+}
